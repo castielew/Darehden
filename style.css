@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #106965; /* logo green */
+  color: #ede3d3; /* logo beige */
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ccc7bf !important;
+  padding: 1.2rem 0 0.8rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #106965;
+  margin-bottom: 0.7rem;
+  letter-spacing: 2px;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dropdown-label {
+  color: #106965;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#menuDropdown {
+  width: 70vw;
+  max-width: 300px;
+  padding: 0.8rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: none;
+  background: #106965;
+  color: #ede3d3;
+  box-shadow: 0 2px 8px rgba(16,105,101,0.08);
+}
+
+#menuDropdown option {
+  background: #106965;
+  color: #ede3d3;
+}
+
+main {
+  padding: 1.2rem 0.5rem 2rem 0.5rem;
+}
+
+.menu-section {
+  margin-bottom: 2.5rem;
+  background: #155c57;
+  border-radius: 12px;
+  padding: 1.2rem 1rem;
+  box-shadow: 0 2px 8px rgba(16,105,101,0.06);
+}
+
+.menu-section h2 {
+  color: #ede3d3;
+  font-size: 1.4rem;
+  margin-bottom: 0.7rem;
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-section li {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #ede3d3;
+  font-size: 1.1rem;
+}
+
+.menu-section li strong {
+  color: #ede3d3 !important;
+}
+
+.menu-section li br + * {
+  color: #fff !important;
+}
+
+.menu-section li:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 600px) {
+  main {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  #menuDropdown {
+    max-width: 300px;
+  }
+} 
