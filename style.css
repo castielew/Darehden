@@ -1,8 +1,9 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: #106965; /* logo green */
-  color: #ede3d3; /* logo beige */
+  background: #a4a2a0 !important;
+    color:  #106965;
+  /* logo beige */
 }
 
 header {
@@ -67,14 +68,15 @@ main {
 
 .menu-section {
   margin-bottom: 2.5rem;
-  background: #155c57;
+  background: #ccc7bf !important;
   border-radius: 12px;
   padding: 1.2rem 1rem;
   box-shadow: 0 2px 8px rgba(16,105,101,0.06);
 }
 
 .menu-section h2 {
-  color: #ede3d3;
+    color: #106965;
+
   font-size: 1.4rem;
   margin-bottom: 0.7rem;
 }
@@ -87,16 +89,19 @@ main {
 
 .menu-section li {
   padding: 0.7rem 0;
-  border-bottom: 1px solid #ede3d3;
+  border-bottom: 1px solid  #106965;
   font-size: 1.1rem;
+  font-weight: bold;
 }
 
 .menu-section li strong {
-  color: #ede3d3 !important;
+  color: #106965;
 }
 
 .menu-section li br + * {
-  color: #fff !important;
+  color: #106965 !important;
+     font-weight: normal;
+
 }
 
 .menu-section li:last-child {
