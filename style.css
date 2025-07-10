@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: #a4a2a0 !important;
-    color:  #106965;
+  background:#106965 !important;
+    color:  #a4a2a0;
   /* logo beige */
 }
 
@@ -10,24 +10,26 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #ccc7bf !important;
-  padding: 1.2rem 0 0.8rem 0;
+  color: #ccc7bf !important;
+background:#106965 !important;  padding: 1.2rem 0 0.8rem 0;
   position: sticky;
   top: 0;
   z-index: 10;
 }
 
 .logo-img {
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
   margin-bottom: 0.5rem;
+    color: #ccc7bf !important;
+
 }
 
 .logo {
   font-size: 2rem;
   font-weight: bold;
-  color: #106965;
+  color: #ccc7bf !important;
   margin-bottom: 0.7rem;
   letter-spacing: 2px;
 }
@@ -37,10 +39,13 @@ header {
   align-items: center;
   gap: 0.5rem;
   margin-bottom: 0.5rem;
+  
+  
 }
 
 .dropdown-label {
-  color: #106965;
+    color: #ccc7bf !important;
+
   font-weight: bold;
   font-size: 1rem;
 }
@@ -52,14 +57,15 @@ header {
   font-size: 1.1rem;
   border-radius: 8px;
   border: none;
-  background: #106965;
-  color: #ede3d3;
+  
   box-shadow: 0 2px 8px rgba(16,105,101,0.08);
+    background: #ccc7bf !important;
+    color: #106965;
+
 }
 
 #menuDropdown option {
-  background: #106965;
-  color: #ede3d3;
+  background: #dcdddd;
 }
 
 main {
@@ -92,6 +98,7 @@ main {
   border-bottom: 1px solid  #106965;
   font-size: 1.1rem;
   font-weight: bold;
+  color: #000000;
 }
 
 .menu-section li strong {
